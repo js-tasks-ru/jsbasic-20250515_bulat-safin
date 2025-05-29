@@ -3,7 +3,7 @@ function print(text) {
 }
 
 function isValid(name) {
-  return typeof name === "string" && name.length >= 4 && name.trim() === name;
+  return typeof name === "string" && name.length >= 4 && !name.includes(" ");
 }
 
 function sayHello() {
@@ -14,5 +14,4 @@ function sayHello() {
     print("Некорректное имя");
   }
 }
-
-sayHello();
+//sayHello();
