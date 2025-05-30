@@ -6,4 +6,3 @@ function factorial(n) {
   }
   return result;
 }
-console.log(factorial(3));
